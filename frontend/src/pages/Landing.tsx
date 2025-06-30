@@ -1,4 +1,4 @@
-// src/pages/LandingPage.tsx
+// src/pages/LandingPage.tsx ...
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
