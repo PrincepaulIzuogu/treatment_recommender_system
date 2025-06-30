@@ -59,7 +59,7 @@ def get_drugs(
         if search:
             query = query.filter(Drug.concept_name.ilike(f"%{search}%"))
 
-        # 🔥 Proper offset and limit for consistent pagination
+        # Proper offset and limit for consistent pagination
         results = query.offset(offset).limit(page_size).all()
 
         if not results:
